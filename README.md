@@ -55,7 +55,7 @@ To set up the project with Open Liberty in Visual Studio Code:
 * Install [Liberty Tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=Open-Liberty.liberty-dev-vscode-ext).
 * Open the Cargo Tracker project via `Explorer` -> `Open Folder` -> select the `cargotracker` directory.
 * There is `LIBERTY DASHBOARD` extension in the Explorer, and the `cargo-tracker` project is under the `LIBERTY DASHBOARD` extension.
-* Right click the `cargo-tracker` project and select `Start...` to start the application. At the top of the IDE, type `-P openliberty` in the popup entry field and then press the `Enter` key.
+* Right click the `cargo-tracker` project and select `Start...` to start the application. At the top of the IDE, type `-P openliberty` in the popup entry field and then press the `Enter/return` key.
 * A termial window in the IDE should be opened and the application should be started by the dev mode of Liberty Maven Plugin.
 * You can safely ignore the shrinkwrap features warning, message-driven bean warning, and the AggregateObjectMapping nested foreign key warning, as these don't affect the application functionality.
 * You can visit the application at http://localhost:8080/cargo-tracker when you see the following message at the terminal:
