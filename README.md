@@ -62,6 +62,9 @@ To set up the project with Open Liberty in Visual Studio Code:
 ```
 ************************************************************************
 [INFO] *    Liberty is running in dev mode.
+...
+[INFO] Source compilation was successful.
+[INFO] Tests compilation was successful.
 ```
 
 
