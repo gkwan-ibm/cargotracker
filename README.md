@@ -47,7 +47,7 @@ To set up the project with Open Liberty and Maven:
 * Make sure `JAVA_HOME` is set.
 * Navigate to the `cargotracker` directory and develop the application with Liberty Maven Plugin: `mvn -P openliberty liberty:dev`.
 
-You can safely ignore the shrinkwrap features warning, message-driven bean warning, and the AggregateObjectMapping nested foreign key warning, as these dont affect the application functionality.
+You can safely ignore the shrinkwrap features warning, message-driven bean warning, and the AggregateObjectMapping nested foreign key warning, as these don't affect the application functionality.
 
 * The application should start without any additional errors and you can view it at http://localhost:8080/cargo-tracker.
 
