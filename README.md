@@ -53,7 +53,7 @@ To set up the project with Open Liberty in Visual Studio Code:
 
 * Ensure you are running Visual Studio Code with Java 17.
 * Install [Liberty Tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=Open-Liberty.liberty-dev-vscode-ext).
-* Open the Cargo Tracker project via Explorer -> Open Folder -> select the `cargotracker` directory.
+* Open the Cargo Tracker project via `Explorer` -> `Open Folder` -> select the `cargotracker` directory.
 * There is `LIBERTY DASHBOARD` extension in the Explorer, and the `cargo-tracker` project is under the `LIBERTY DASHBOARD` extension.
 * Right click the `cargo-tracker` project and select `Start...` to start the application. At the top of the IDE, type `-P openliberty` in the popup entry field and then press the `Enter` key.
 * A termial window in the IDE should be opened and the application should be started by the dev mode of Liberty Maven Plugin.
