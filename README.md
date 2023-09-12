@@ -46,9 +46,7 @@ To set up the project with Open Liberty and Maven:
 * Ensure you are running Java SE 11, or Java SE 17 (IBM Semeru recommended with Open Liberty: https://developer.ibm.com/languages/java/semeru-runtimes/downloads/ -> select from the version dropdown menu.
 * Make sure `JAVA_HOME` is set.
 * Navigate to the `cargotracker` directory and develop the application with Liberty Maven Plugin: `mvn -P openliberty liberty:dev`.
-
-You can safely ignore the shrinkwrap features warning, message-driven bean warning, and the AggregateObjectMapping nested foreign key warning, as these don't affect the application functionality.
-
+* You can safely ignore the shrinkwrap features warning, message-driven bean warning, and the AggregateObjectMapping nested foreign key warning, as these don't affect the application functionality.
 * The application should start without any additional errors and you can view it at http://localhost:8080/cargo-tracker.
 
 To set up the project with Open Liberty in Visual Studio Code:
@@ -58,7 +56,8 @@ To set up the project with Open Liberty in Visual Studio Code:
 * Open the Cargo Tracker project via Explorer -> Open Folder -> select the `cargotracker` directory.
 * There is `LIBERTY DASHBOARD` extension in the Explorer, and the `cargo-tracker` project is under the `LIBERTY DASHBOARD` extension.
 * Right click the `cargo-tracker` project and select `Start...` to start the application. At the top of the IDE, type `-P openliberty` in the popup entry field and then press the `Enter` key.
-* A termial window in the IDE should be opened and the application should be started by the dev mode of Liberty Maven Plugin. The cosmetic warnings related to DB setup and message endpoint initialization are expected. 
+* A termial window in the IDE should be opened and the application should be started by the dev mode of Liberty Maven Plugin.
+* You can safely ignore the shrinkwrap features warning, message-driven bean warning, and the AggregateObjectMapping nested foreign key warning, as these don't affect the application functionality.
 * You can view the application at http://localhost:8080/cargo-tracker when you see the following message at the terminal:
 ```
 ************************************************************************
