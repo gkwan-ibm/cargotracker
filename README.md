@@ -66,7 +66,7 @@ To set up the project with Open Liberty in Visual Studio Code:
 ...
 [INFO] Source compilation was successful.
 [INFO] Tests compilation was successful.
-```
+    ```
 
 
 ## Exploring the Application
