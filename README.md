@@ -60,13 +60,13 @@ To set up the project with Open Liberty in Visual Studio Code:
 * A termial window in the IDE should be opened and the application should be started by the dev mode of Liberty Maven Plugin.
 * You can safely ignore the shrinkwrap features warning, message-driven bean warning, and the AggregateObjectMapping nested foreign key warning, as these don't affect the application functionality.
 * You can visit the application at http://localhost:8080/cargo-tracker when you see the following message at the terminal:
-  * ```
+```
 ************************************************************************
 [INFO] *    Liberty is running in dev mode.
 ...
 [INFO] Source compilation was successful.
 [INFO] Tests compilation was successful.
-    ```
+```
 
 
 ## Exploring the Application
