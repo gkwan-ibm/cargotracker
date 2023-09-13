@@ -44,7 +44,7 @@ To set up in Visual Studio Code, follow these steps:
 To set up the project with Open Liberty and Maven:
 
 * Ensure you are running Java SE 11, or Java SE 17
-  * (IBM Semeru recommended with Open Liberty: https://developer.ibm.com/languages/java/semeru-runtimes/downloads/ -> select from the version dropdown menu).
+  * IBM Semeru recommended with Open Liberty: https://developer.ibm.com/languages/java/semeru-runtimes/downloads/ -> select from the version dropdown menu.
 * Make sure `JAVA_HOME` is set.
 * Navigate to the `cargotracker` directory and develop the application with Liberty Maven Plugin: `mvn -P openliberty liberty:dev`.
 * You can safely ignore the shrinkwrap features warning, message-driven bean warning, and the AggregateObjectMapping nested foreign key warning, as these don't affect the application functionality.
@@ -60,7 +60,7 @@ To set up the project with Open Liberty in Visual Studio Code:
 * A termial window in the IDE should be opened and the application should be started by the dev mode of Liberty Maven Plugin.
 * You can safely ignore the shrinkwrap features warning, message-driven bean warning, and the AggregateObjectMapping nested foreign key warning, as these don't affect the application functionality.
 * You can visit the application at http://localhost:8080/cargo-tracker when you see the following message at the terminal:
-```
+  * ```
 ************************************************************************
 [INFO] *    Liberty is running in dev mode.
 ...
